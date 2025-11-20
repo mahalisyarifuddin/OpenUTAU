@@ -10,7 +10,7 @@ namespace OpenUtau.Plugin.Builtin {
 
         private readonly string[] vowels = "a,e,3,i,o,u".Split(",");
         private readonly string[] consonants = "b,c,d,f,g,h,j,k,2,kh,l,m,n,ng,ny,p,r,s,sy,t,v,w,y,z".Split(",");
-        private readonly string[] burstConsonants = "p,b,t,d,k,g,2,c,j".Split(",");
+        private readonly string[] burstConsonants = "p,b,t,d,k,g,c,j".Split(",");
 
         protected override string[] GetVowels() => vowels;
         protected override string[] GetConsonants() => consonants;
